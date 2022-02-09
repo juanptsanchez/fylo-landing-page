@@ -1,0 +1,89 @@
+/*==============================================
+SITE-HEADER
+===============================================*/
+.site-nav a:hover {
+	text-decoration: overline;
+}
+.logo a img {
+	width: 85%;
+}
+.site-nav ul li a {
+	font-size: 1.6rem;
+}
+
+/*==============================================
+SITE-HERO
+===============================================*/
+.h-heading {
+	font-size: 4rem;
+	line-height: 5.5rem;
+}
+
+/*==============================================
+SITE-MAIN
+===============================================*/
+/* MAIN TEXTO */
+.main-txt-heading {
+	text-align: center;
+}
+
+/* MAIN QUOTE */
+.quote i {
+	font-size: 1.6rem;
+}
+.quote:nth-child(1) {
+	font-size: 1.4rem;
+	line-height: 2.3rem;
+}
+.perfil img {
+	width: 5rem;
+}
+.autor-quote, .autor-cargo {
+	font-size: 1.3rem;
+}
+
+/*==============================================
+SITE-FOOTER
+===============================================*/
+.footer--grid {
+	display: grid;
+	grid-template-columns: 40% 25% 25% 10%;
+	gap: 1rem;
+}
+
+/* LOGO FOOTER */
+.datos-footer img {
+	width: 80px;
+	padding-bottom: 2rem;
+}
+
+/* TELEFONO / CORREO FOOTER */
+.telefono, .correo-footer {
+	margin-bottom: 1rem;
+	font-size: 1.3rem;
+}
+
+/* ENLACES FOOTER */
+.parte-1 li a, .parte-2 li a {
+	color: #fff;
+	font-size: 1.3rem;
+}
+.parte-1 li, .parte-2 li {
+	margin-bottom: 2rem;
+}
+.parte-1 li:last-of-type {
+	margin-bottom: 0;
+}
+.parte-2 li:last-of-type {
+	margin-bottom: 0;
+}
+
+/* REDES FOOTER */
+.facebook, .twitter, .instagram {
+	color: #fff;
+	font-size: 2rem;
+}
+.redes-footer ul {
+	flex-direction: column;
+	gap: 2rem;
+}

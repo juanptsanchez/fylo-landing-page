@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fylo</title>
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">   
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" sizes="16x16"  href="assets/favicon/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 820px)" type="text/css">
+    <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 1240px)" type="text/css">
+
+    <!-- JAVASCRIPT -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> <!-- LIBRERIA JQUERY -->
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+
+    <header class="site-header container">
+        <section class="logo">
+            <a href="index.html" title="Logo Fylo"><img src="assets/images/logo.svg" alt="Logo Fylo"></a>
+        </section>
+        <nav class="site-nav">
+            <ul>
+                <li><a href="#" title="Características" tabindex="0" aria-label="Conoce más sobre el servicio que presta Fylo">Características</a></li>
+                <li><a href="#" title="Ingresar" tabindex="2" aria-label="Ingresar a Fylo">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header> <!-- CIERRE SITE HEADER -->
+
+    <a class="ir-arriba"  javascript:void(0) title="Volver arriba">
+        <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+        </span>
+    </a> <!-- BOTÓN IR ARRIBA -->
+
+    <section class="hero container">
+        <div class="hero-img">
+            <img src="assets/images/fylo_files.png" alt="" loading="lazy">
+        </div>
+        <div class="hero-txt">
+            <h1 class="h-heading">Todos tus archivos, seguros y accesibles en un solo lugar</h1>
+            <p class="h-parrafo">Fylo se encarga de guardar tus archivos más importantes en una locación segura. Accede a ellos cuando los necesites, comparte y trabaja en ellos con tus amigos, familiares y equipo de trabajo.</p>
+            <div class="hero-form">
+                <form action="" method="">
+                    <input type="email" id="email" name="email" placeholder="Escribe tu correo" required tabindex="3">
+                    <input class="btn-form" type="submit" value="Comenzar" tabindex="4" title="¡Haz clic aquí para comenzar!">
+                </form>
+            </div>
+        </div>
+    </section> <!-- CIERRE SITE HERO -->
+
+    <main class="site-main">
+        <section class="main-img container">
+            <img src="assets/images/productive.png" alt="" loading="lazy">
+        </section> <!-- CIERRE IMAGEN MAIN -->
+        <section class="main-txt container">
+            <h2 class="main-txt-heading">Mantente productivo desde donde estés</h2>
+            <div class="main-txt-contenido">
+                <p>Tu locación nunca será un problema para acceder a tus archivos. Fylo cubrirá todo el espacio que tus datos necesitan.</p>
+                <p>Comparte archivos de manera segura con tus amigos, familiares y compañeros de trabajo y colabora en vivo junto a ellos.</p>
+            </div>
+            <a href="#" class="main-enlace" tabindex="5" title="Conoce cómo trabaja Fylo">Mira cómo trabaja Fylo <i class="fas fa-arrow-alt-circle-right"></i></a>
+            <hr>
+        </section> <!-- CIERRE TEXTO MAIN -->
+        <section class="main-quote">
+            <div class="quote container">
+                <i class="fas fa-quote-left"></i>
+                <p>Fylo ha mejorado la productividad de nuestro equipo en un alto nivel. Desde que hicimos el cambio, nuestro equipo se ha convertido en una maquina de colaboración muy bien equipada.</p>
+                <div class="perfil">
+                    <img src="assets/images/avatar-testimonial.jpg" alt="Foto de perfil de Kyle Burton, Fundador y CEO de Huddle" loading="lazy">
+                    <div class="perfil-info">
+                        <h3 class="autor-quote">Kyle Burton</h3>
+                        <p class="autor-cargo">Fundador y CEO, Huddle</p>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- CIERRE QUOTE MAIN -->
+    </main> <!-- CIERRE MAIN -->
+
+    <section class="acceso">
+        <div class="acceso-cont container">
+            <h2>Obtén acceso hoy mismo</h2>
+            <p>Solo te tomará un minuto el registrarte y conocer nuestros beneficios. Si tienes alguna duda, nuestro equipo de soporte estará feliz de ayudarte.</p>
+            <div class="registro">
+                <form action="" method="">
+                    <input type="email" id="email" name="email" placeholder="email@ejemplo.com" required tabindex="6">
+                    <input class="btn-form" type="submit" value="Empieza ya aquí" tabindex="7" title="¡Empieza aquí!">
+                </form>
+            </div>
+        </div>
+    </section> <!-- CIERRE ACCESO -->
+
+    <footer class="site-footer">
+        <div class="container footer--grid">
+            <section class="datos-footer">
+                <img src="assets/images/fylo-logo-white.png" alt="Fylo logo" loading="lazy">
+                <div class="telefono">
+                    <i class="fas fa-phone-alt"></i>
+                    <p class="telefono-num"><span>Teléfono:</span> 601 543-123-4567</p>
+                </div>
+                <div class="correo-footer">
+                    <i class="far fa-envelope"></i>
+                    <p class="correo-dir"><span>Correo:</span> ejemplo@fylo.com</p>
+                </div>
+            </section> <!-- CIERRE LOGO/DATOS FOOTER -->
+            <section class="enlaces-footer-pt1">
+                <ul class="parte-1">
+                    <li><a href="#" title="Nosotros">Nosotros</a></li>
+                    <li><a href="#" title="Prensa">Prensa</a></li>
+                    <li><a href="#" title="Trabajos">Trabajos</a></li>
+                </ul>
+            </section>  <!-- CIERRE ENLACES FOOTER PARTE 1 -->
+            <section class="enlaces-footer-pt2">
+                <ul class="parte-2">
+                    <li><a href="#" title="Contacto">Contacto</a></li>
+                    <li><a href="#" title="Legal">Legal</a></li>
+                    <li><a href="#" title="Privacidad">Privacidad</a></li>
+                </ul>
+            </section>  <!-- CIERRE ENLACES FOOTER PARTE 2 -->
+            <section class="redes-footer">
+                <ul>
+                    <li>
+                        <a href="#" title="Facebook"><i class="fab fa-facebook-f facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram instagram"></i></a>
+                    </li>
+                </ul>
+            </section> <!-- CIERRE REDES FOOTER -->
+        </div>
+    </footer> <!-- CIERRE FOOTER -->
+
+</body>
+
+</html>
