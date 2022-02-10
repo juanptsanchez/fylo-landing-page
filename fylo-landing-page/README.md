@@ -1,22 +1,14 @@
-# Clipboard landing page
+# Fylo landing page
 
-## Table of contents
+## Tabla de contenido
 
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
-  - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
-  - [Author](#author)
+  - [Construida con](#construida-con)
+  - [Recursos](#recursos)
+  - [Autor](#autor)
 
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout depending on their device's screen size
-- See hover states for interactive elements
-
-### Screenshot
+### Screenshots
 
 [Mobile](assets/images/mobile.png)
 
@@ -26,21 +18,24 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Netlify](https://clipboard-landing-page-test.netlify.app/)
+- URL sitio en vivo: [Netlify](https://clipboard-landing-page-test.netlify.app/)
 
-### Built with
+### Construida con
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML5 semántico
+- CSS
 - Flexbox
 - CSS Grid 
-- Mobile-first workflow
+- Mobile-first
 
 ### Useful resources
 
-- [Google Fonts](https://fonts.google.com/) - This helped me select the font and use it in my project.
-- [Normalize](https://necolas.github.io/normalize.css/) - This is an amazing library which helped me render all elements more consistently and in line with modern standards.
+- [Google Fonts](https://fonts.google.com/)
 
-## Author
+- [Font Awesome](https://fontawesome.com/)
 
-- Juan Pablo Torres - [Github](https://github.com/juanptsanchez)
+- [Normalize](https://necolas.github.io/normalize.css/)
+
+## Autor
+
+- Juan Pablo Torres Sánchez - [Github](https://github.com/juanptsanchez)
