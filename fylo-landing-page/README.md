@@ -18,7 +18,7 @@
 
 ### Links
 
-- URL sitio en vivo: [Netlify](https://clipboard-landing-page-test.netlify.app/)
+- URL sitio en vivo: [Netlify](https://fylo-landing-page-test.netlify.app/)
 
 ### Construida con
 
