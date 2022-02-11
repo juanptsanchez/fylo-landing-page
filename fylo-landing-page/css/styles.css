@@ -136,6 +136,11 @@ SITE-HERO
 }
 .hero-form input:first-of-type:focus {
 	outline: 2px solid #00C9C3;
+	border-radius: .5rem;
+	-webkit-border-radius: .5rem;
+	-moz-border-radius: .5rem;
+	-ms-border-radius: .5rem;
+	-o-border-radius: .5rem;
 }
 .hero-form input::placeholder {
   color: rgb(189,189,189);
@@ -281,9 +286,11 @@ SITE-FOOTER
 }
 .telefono-num {
 	margin: 0;
+	color: #fff;
 }
 .correo-dir {
 	margin: 0;
+	color: #fff;
 }
 
 /* ENLACES FOOTER */
